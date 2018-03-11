@@ -66,7 +66,7 @@ par(mfrow = c(2,2))
          y=resultingdata$Global_active_power,
          type = "l",
          xlab = "",
-         ylab = "Global Active Power (kilowatts)"
+         ylab = "Global Active Power"
     )
 }
 
