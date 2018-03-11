@@ -8,8 +8,4 @@ if (!exists("getdata")) {
 resultingfile <- getdata(download = F)
 resultingdata <- load.data(resultingfile)
 
-hist(x = resultingdata$Global_active_power
-    ,col = "red"
-    ,main = "Global Active Power"
-    ,xlab = "Global Active Power (kilowatts)"
-    )
+# Do something here
