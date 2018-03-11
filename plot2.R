@@ -52,7 +52,7 @@ load.data <- function(filepath) {
 }
 
 # start program logic
-resultingfile <- getdata(download = F)
+resultingfile <- getdata(download = T)
 resultingdata <- load.data(resultingfile)
 
 outputfilename <- getSrcFilename(getdata)
